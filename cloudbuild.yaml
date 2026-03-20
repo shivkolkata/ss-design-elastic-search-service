@@ -39,7 +39,7 @@ steps:
 
 substitutions:
   _REGION: 'asia-south2'
-  _REPOSITORY: 'miles-and-style-repo'
+  _REPOSITORY: 'smiles-and-style-repo'
   _IMAGE_NAME: 'elastic-search-service'
   _PROJECT_ID: 'smiles-and-style'
   _VERSION_NO: '1.0.0'
