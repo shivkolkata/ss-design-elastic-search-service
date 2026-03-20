@@ -40,6 +40,10 @@ steps:
   - --timeout
   - '300s'
   - --quiet
+  - --memory
+  - '4Gi'  # Elasticsearch 8.x needs this much to start reliably
+  - --cpu
+  - '2'
 
 substitutions:
   _REGION: 'asia-south2'
