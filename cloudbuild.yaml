@@ -28,6 +28,8 @@ steps:
   - '${_IMAGE_NAME}'
   - --image
   - '${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPOSITORY}/${_IMAGE_NAME}:${_VERSION_NO}'
+  - port
+  - '9200'
   - --region
   - '${_REGION}'
   - --platform
