@@ -29,7 +29,9 @@ steps:
   - --image
   - '${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPOSITORY}/${_IMAGE_NAME}:${_VERSION_NO}'
   - --port
-  - '9200'
+  - '8080'
+  - --set-env-vars
+  - "http.port=8080"
   - --region
   - '${_REGION}'
   - --platform
