@@ -43,4 +43,4 @@ substitutions:
   _IMAGE_NAME: 'elastic-search-service'
   _PROJECT_ID: 'smiles-and-style'
   _VERSION_NO: '1.0.0'
-  _SERVICE_ACCOUNT: 'ss-design-api-sa@smiles-and-style.iam.gserviceaccount.com'
+  _SERVICE_ACCOUNT: 'ss-cloudbuild-sa@smiles-and-style.iam.gserviceaccount.com'
